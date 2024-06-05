@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8" />
+
+
+
+  <title>TraumUrlaub.de</title>
+  <style>
+
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+
+     background-color: #fffeff;
+     color: #222;
+     line-height: 1.3;
+     font-family: sans-serif;
+     font-size: 100%;
+}
+
+
+#Gesamt {
+	  overflow:hidden;
+      background:  #fffcfc;
+	  width: 95%;
+      margin: 1% auto;
+}
+
+.kopf {
+      background-color: #0dc1dd;
+      color: white;
+	  padding: 2%;
+}
+
+
+
+
+.inhalt {
+      background-color: #fff;
+	  padding: 2%;
+
+}
+
+a:link, a:visited {
+      color: rgb(0, 247, 255);
+      text-decoration: none;
+}
+
+.navigation ul {
+	    padding-left: 0;
+}
+
+.navigation li {
+	    display: block;
+		width: 70%;
+		list-style: none;
+		padding: 5% 0 0 3%;
+
+
+}
+
+.sprung {
+	    display: block;
+	    padding: 4% 0;
+		text-align:center;
+	  }
+
+img {
+	max-width:100%;
+}
+
+@media print{
+	img {
+		width:40%;
+	}
+	.sprung, .navigation {
+		display:none;
+	}
+}
+
+
+
+@media screen and (min-width:600px) {
+	  .sprung {
+
+
+		display:none;
+	  }
+	  .navigation {
+		float:left;
+ width:25%;
+ padding:2%;
+      }
+
+	  .inhalt {
+		float:right;
+ width:65%;
+ padding:3%;
+
+      }
+
+	  .navigation li {
+		  display:list-item;
+		  list-style-type:square;
+		  border-bottom:dotted #00fff2 2px;
+		  list-style-position:inside;
+		  color: rgb(0, 247, 255);
+	  }
+
+	  .navigation ul {
+	    padding-left: 6%;
+
+	  }
+
+}
+
+
+
+  </style>
+</head>
+<body>
+ <div id="Gesamt">
+
+   <div class="kopf">
+   	<img src="http://placehold.it/700x100/f00/fff" alt="Platzhalterbild" >
+   </div>
+
+   <a href="#menue" class="sprung">Menü</a>
+
+   <div class="inhalt"><p>Unterkünfte in verschiedenen Städten und Ländern. Düsseldorf, Köln, Berlin und Hamburg in Deutschland. Weitere Länder wie Amerika und Spanien.</p>
+      <p>Nam justo ligula, interdum sodales volutpat vel, accumsan ac erat. Quisque aliquam venenatis consectetur. Cras euismod metus nec tortor porttitor vestibulum. Phasellus vehicula ipsum euismod felis faucibus vitae pellentesque quam tristique. Curabitur eleifend vestibulum est ac interdum. Curabitur varius fringilla velit, a rhoncus lacus tincidunt ac. Nam dictum augue sed ligula facilisis bibendum commodo nec urna. In hac habitasse platea dictumst. Integer non eros nibh, sed interdum libero. Sed id elit at augue mollis consectetur.</p>
+      <p>Nam justo ligula, interdum sodales volutpat vel, accumsan ac erat. Quisque aliquam venenatis consectetur. Cras euismod metus nec tortor porttitor vestibulum. Phasellus vehicula ipsum euismod felis faucibus vitae pellentesque quam tristique. Curabitur eleifend vestibulum est ac interdum. Curabitur varius fringilla velit, a rhoncus lacus tincidunt ac. Nam dictum augue sed ligula facilisis bibendum commodo nec urna. In hac habitasse platea dictumst. Integer non eros nibh, sed interdum libero. Sed id elit at augue mollis consectetur.</p>
+      <p>Nam justo ligula, interdum sodales volutpat vel, accumsan ac erat. Quisque aliquam venenatis consectetur. Cras euismod metus nec tortor porttitor vestibulum. Phasellus vehicula ipsum euismod felis faucibus vitae pellentesque quam tristique. Curabitur eleifend vestibulum est ac interdum. Curabitur varius fringilla velit, a rhoncus lacus tincidunt ac. Nam dictum augue sed ligula facilisis bibendum commodo nec urna. In hac habitasse platea dictumst. Integer non eros nibh, sed interdum libero. Sed id elit at augue mollis consectetur.</p>
+   </div>
+   <div class="navigation" >
+     <ul>
+	  <li><a href="#" name="menue">Home</a></li>
+	  <li><a href="#">Kurse</a></li>
+	  <li><a href="#">Kontakt</a></li>
+     </ul>
+   </div>
+
+ </div>
+
+
+</body>
+</html>
